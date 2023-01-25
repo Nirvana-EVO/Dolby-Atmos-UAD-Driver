@@ -1,0 +1,225 @@
+;===================================================================
+; Dolby DAX APO driver package
+; Copyright (c)2020, Dolby Laboratories, INC.
+;===================================================================
+[Version]
+Signature 	= "$Windows NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider 	= %ManufacturerName%
+ExtensionId = {2C0454A3-AB52-4F33-8FD1-21140301103B}
+CatalogFile = dax3_ext_rtk.cat
+DriverVer = 06/22/2022,7.623.450.33
+
+[Manufacturer]
+%ManufacturerName% = DeviceExtensions,NTamd64
+
+[DeviceExtensions.NTamd64]
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioSpeakerSystem,
+; %Device.ExtensionDesc% = DeviceExtension_Install_Gaming,
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,HDAUDIO\FUNC_01&VEN_10EC
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessGaming,
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessOEMNoGaming,
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessOEMGaming,
+; %Device.ExtensionDesc% = DeviceExtension_Install_NoUINoGaming,
+; %Device.ExtensionDesc% = DeviceExtension_Install_NoUIGaming,
+
+[DeviceExtension_Install_DolbyAtmos.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAtmosSpeakerSystem.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAudio.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAudioPremium.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAudioSpeakerSystem.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_Gaming.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAccessNoGaming.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAccessGaming.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAccessOEMNoGaming.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAccessOEMGaming.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_NoUINoGaming.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_NoUIGaming.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[PresetAddReg]
+;; render endpoint settings for HDAudio
+HKR,InterfaceSetting,PrimaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                  ;; PrimaryLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SingleLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                   ;; SingleLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SecondaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset2"                ;; SecondaryLineOutTopo stands for Headphone endpoint
+;; render endpoint settings for Intel SST
+HKR,InterfaceSetting,RearLineOutTopoSST,%REG_MULTI_SZ_APPEND%,"ApoPreset1"					;; Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported (Intel SST) 
+HKR,InterfaceSetting,RearLineOutTopoSST3,%REG_MULTI_SZ_APPEND%,"ApoPreset2"					;; Headphone endpoint with audio offloading DSP supported (Intel SST)
+;; render endpoint settings for AMD DSP
+HKR,InterfaceSetting,RearLineOutTopoHAP,%REG_MULTI_SZ_APPEND%,"ApoPreset1"					;; Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported (AMD HAP) 
+HKR,InterfaceSetting,RearLineOutTopoHAP3,%REG_MULTI_SZ_APPEND%,"ApoPreset2"					;; Headphone endpoint with audio offloading DSP supported (AMD HAP)
+
+[DolbyAPO_AddReg]
+; Add Dolby enabled device indicator string here.
+HKR, InterfaceSetting\ApoPreset1\EP\0, "{6CA6A085-3041-482B-9113-C61E7F250356},0",         ,"0.4.0"
+HKR, InterfaceSetting\ApoPreset2\EP\0, "{6CA6A085-3041-482B-9113-C61E7F250356},0",         ,"0.4.0"
+HKR, , DaxExtFolder,         ,%13%
+
+; AddComponent definition for all SKUs
+[DeviceExtension_Install_DolbyAtmos.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAtmos,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAtmos
+
+[DeviceExtension_Install_DolbyAtmosSpeakerSystem.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAtmosSpeakerSystem,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAtmosSpeakerSystem
+
+[DeviceExtension_Install_DolbyAudio.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAudio,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAudio
+
+[DeviceExtension_Install_DolbyAudioPremium.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAudioPremium,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAudioPremium
+
+[DeviceExtension_Install_DolbyAudioSpeakerSystem.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAudioSpeakerSystem,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAudioSpeakerSystem
+
+[DeviceExtension_Install_Gaming.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_Gaming,, DolbyAPO_ComponentInstall_DAX3HSA_Gaming
+
+[DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAtmosSpeakerSystemForGaming,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAtmosSpeakerSystemForGaming
+
+[DeviceExtension_Install_DolbyAccessNoGaming.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAccess,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAccess
+
+[DeviceExtension_Install_DolbyAccessGaming.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAccess,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAccess
+
+[DeviceExtension_Install_DolbyAccessOEMNoGaming.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAccessOEM,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAccessOEM
+
+[DeviceExtension_Install_DolbyAccessOEMGaming.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAccessOEM,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAccessOEM
+
+[DeviceExtension_Install_NoUINoGaming.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+
+[DeviceExtension_Install_NoUIGaming.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+
+; APOSVC component
+[DolbyAPO_ComponentInstall_DAX3APOSVC]
+ComponentIds = VEN_DOLBY&PID_DAX3APOSVC  ; Matches with SWC\VEN_DOLBY&PID_DAX3APOSVC
+
+; HSA component definition for all SKUs
+[DolbyAPO_ComponentInstall_DAX3HSA_DolbyAtmos]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAtmos ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAtmos
+
+[DolbyAPO_ComponentInstall_DAX3HSA_DolbyAtmosSpeakerSystem]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAtmosSpeakerSystem ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAtmosSpeakerSystem
+
+[DolbyAPO_ComponentInstall_DAX3HSA_DolbyAudio]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAudio ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAudio
+
+[DolbyAPO_ComponentInstall_DAX3HSA_DolbyAudioPremium]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAudioPremium ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAudioPremium
+
+[DolbyAPO_ComponentInstall_DAX3HSA_DolbyAudioSpeakerSystem]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAudioSpeakerSystem ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAudioSpeakerSystem
+
+[DolbyAPO_ComponentInstall_DAX3HSA_Gaming]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_Gaming ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_Gaming
+
+[DolbyAPO_ComponentInstall_DAX3HSA_DolbyAtmosSpeakerSystemForGaming]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAtmosSpeakerSystemForGaming ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAtmosSpeakerSystemForGaming
+
+[DolbyAPO_ComponentInstall_DAX3HSA_DolbyAccess]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAccess ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAccess
+
+[DolbyAPO_ComponentInstall_DAX3HSA_DolbyAccessOEM]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAccessOEM ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAccessOEM
+
+[SourceDisksNames]
+222="APO Installation Disk",,,
+
+[SourceDisksFiles]
+; OEM xml
+operator_settings_lenovo_edu.json = 222
+operator_settings_lenovo_dafault.json = 222
+operator_settings_lenovo_audio_mirroring_amd.json = 222
+operator_settings_lenovo_audio_mirroring.json = 222
+operator_settings.xml = 222
+Operator_Info_Lenovo.xml = 222
+; Tuning xml
+Default.xml = 222
+Headphone_Default_Generic_Default_Gaming3.4.xml = 222
+Headphone_Default_Generic_Default_Gaming3.3.xml = 222
+Headphone_Default_Generic_Default_Gaming3.2.xml = 222
+
+[DestinationDirs]
+DolbyAPO_CopyFiles_OEM = 13
+DolbyAPO_CopyFiles_Tuning = 13
+
+[DolbyAPO_CopyFiles_OEM]
+operator_settings_lenovo_edu.json
+operator_settings_lenovo_dafault.json
+operator_settings_lenovo_audio_mirroring_amd.json
+operator_settings_lenovo_audio_mirroring.json
+operator_settings.xml
+Operator_Info_Lenovo.xml
+
+[DolbyAPO_CopyFiles_Tuning]
+Default.xml
+Headphone_Default_Generic_Default_Gaming3.4.xml
+Headphone_Default_Generic_Default_Gaming3.3.xml
+Headphone_Default_Generic_Default_Gaming3.2.xml
+
+[Strings]
+ManufacturerName 	= "Dolby"
+Device.ExtensionDesc = "Dolby Device Extension"
+
+REG_MULTI_SZ_APPEND                           = 0x00010008

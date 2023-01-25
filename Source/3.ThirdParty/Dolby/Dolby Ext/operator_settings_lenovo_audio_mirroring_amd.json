@@ -1,0 +1,10 @@
+{
+  "format_version": "1.0.0",
+  "change_version": "1",
+  "change_date": "2022-05-26 02:42:11",
+  "source": "2.0.3.0",
+  "import": "operator_settings_lenovo_audio_mirroring.json",
+  "settings": {
+    "compensate_volume": true
+  }
+}

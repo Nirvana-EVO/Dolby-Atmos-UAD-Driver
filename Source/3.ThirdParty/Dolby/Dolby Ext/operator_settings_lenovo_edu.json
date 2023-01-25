@@ -1,0 +1,10 @@
+{
+  "format_version": "1.0.0",
+  "change_version": "1",
+  "change_date": "2022-01-13 03:35:15",
+  "source": "2.0.1.0",
+  "import": "operator_settings_lenovo_dafault.json",
+  "settings": {
+    "show_online_course_button": true
+  }
+}

@@ -1,0 +1,167 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = SoftwareComponent
+ClassGuid   = {5c4c3332-344d-483c-8739-259e934c9cc8}
+Provider    = %Elevoc%
+CatalogFile = ElevocAPO.cat
+DriverVer   = 10/17/2022, 3.0.3.131
+
+[SourceDisksNames]
+222 = %DiskId%
+
+[SourceDisksFiles]
+elevoc_kws_engine.dll=222
+elevoc_speech_engine.dll=222
+elevoc_teams_aec.dll=222
+elevoc_voice_separation.dll=222
+ElevocControlService.exe=222
+ElevocAudioManager.exe=222
+ElevocDAPO.dll=222
+ElevocDNSEngine.dll=222
+ElevocGNA.dll=222
+ElevocKWSApo.dll=222
+ElevocSEEngine.dll=222
+ElevocUAPO.dll=222
+ElevocUNSEngine.dll=222
+gna.dll=222
+GNAPlugin.dll=222
+inference_engine.dll=222
+inference_engine_c_api.dll=222
+inference_engine_legacy.dll=222
+inference_engine_transformations.dll=222
+msvcp140.dll=222
+ngraph.dll=222
+plugins.xml=222
+tbb.dll=222
+vcruntime140.dll=222
+vcruntime140_1.dll=222
+
+[DestinationDirs]
+SfxFx.CopyList=11,ElevocInstallDriver ; %SystemRoot%\system32\ElevocInstallDriver
+APOService.CopyList=11,ElevocInstallDriver
+
+[Manufacturer]
+%Elevoc% = ApoComponents,NTamd64
+
+[ApoComponents.NTamd64]
+%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_ELEVOC&AID_0001
+
+[ApoComponent_Install.NT]
+Include   = wdmaudio.inf
+Needs     = mssysfx.CopyFilesAndRegister
+CopyFiles = SfxFx.CopyList
+AddReg    = ElevocAPO.AddReg
+CopyFiles = APOService.CopyList
+
+[ApoComponent_Install.NT.Services]
+AddService = , 0x00000002
+AddService=ElevocService,0x00000800,APOService_Install
+
+[SfxFx.CopyList]
+elevoc_kws_engine.dll
+elevoc_speech_engine.dll
+elevoc_teams_aec.dll
+elevoc_voice_separation.dll
+ElevocDAPO.dll
+ElevocDNSEngine.dll
+ElevocGNA.dll
+ElevocKWSApo.dll
+ElevocSEEngine.dll
+ElevocUAPO.dll
+ElevocUNSEngine.dll
+gna.dll
+GNAPlugin.dll
+inference_engine.dll
+inference_engine_c_api.dll
+inference_engine_legacy.dll
+inference_engine_transformations.dll
+msvcp140.dll
+ngraph.dll
+plugins.xml
+tbb.dll
+vcruntime140.dll
+vcruntime140_1.dll
+
+[APOService.CopyList]
+ElevocControlService.exe
+ElevocAudioManager.exe
+
+[APOService_Install]
+DisplayName = %ServiceDisplayName%
+Description = %ServiceDescription%
+ServiceType=0x00000010
+StartType=2
+ErrorControl=1
+ServiceBinary=%11%\ElevocInstallDriver\ElevocControlService.exe
+
+[ElevocAPO.AddReg]
+
+HKCR,CLSID\%ELEVOC_UAPO_CLSID%,,0,"ElevocUAPO MFX Class"
+HKCR,CLSID\%ELEVOC_UAPO_CLSID%\InProcServer32,,0x00020000,%%SystemRoot%%\System32\ElevocInstallDriver\ElevocUAPO.dll
+HKCR,CLSID\%ELEVOC_UAPO_CLSID%\InProcServer32,ThreadingModel,0,Both
+
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_UAPO_CLSID%,FriendlyName,0,"Elevoc Audio UAPO MFX"
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_UAPO_CLSID%,Copyright,0,"Copyright (c) Elevoc Technology Co.,Ltd."
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_UAPO_CLSID%,MajorVersion,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_UAPO_CLSID%,MinorVersion,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_UAPO_CLSID%,Flags,0x00010001,0x0000000e
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_UAPO_CLSID%,MinInputConnections,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_UAPO_CLSID%,MaxInputConnections,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_UAPO_CLSID%,MinOutputConnections,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_UAPO_CLSID%,MaxOutputConnections,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_UAPO_CLSID%,MaxInstances,0x00010001,0xffffffff
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_UAPO_CLSID%,NumAPOInterfaces,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_UAPO_CLSID%,APOInterface0,0,"{FD7F2B29-24D0-4B5C-B177-592C39F9CA10}"
+
+
+HKCR,CLSID\%ELEVOC_KWS_CLSID%,,0,"Elevoc KWSAPO MFX Class"
+HKCR,CLSID\%ELEVOC_KWS_CLSID%\InProcServer32,,0x00020000,%%SystemRoot%%\System32\ElevocInstallDriver\ElevocKWSApo.dll
+HKCR,CLSID\%ELEVOC_KWS_CLSID%\InProcServer32,ThreadingModel,0,Both
+
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_KWS_CLSID%,FriendlyName,0,"Elevoc KWS MFX"
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_KWS_CLSID%,Copyright,0,"Copyright (c) Elevoc Technology Co.,Ltd."
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_KWS_CLSID%,MajorVersion,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_KWS_CLSID%,MinorVersion,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_KWS_CLSID%,Flags,0x00010001,0x0000000e
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_KWS_CLSID%,MinInputConnections,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_KWS_CLSID%,MaxInputConnections,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_KWS_CLSID%,MinOutputConnections,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_KWS_CLSID%,MaxOutputConnections,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_KWS_CLSID%,MaxInstances,0x00010001,0xffffffff
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_KWS_CLSID%,NumAPOInterfaces,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_KWS_CLSID%,APOInterface0,0,"{FD7F2B29-24D0-4B5C-B177-592C39F9CA10}"
+
+HKCR,CLSID\%ELEVOC_DAPO_CLSID%,,0,"ElevocDAPO MFX Class"
+HKCR,CLSID\%ELEVOC_DAPO_CLSID%\InProcServer32,,0x00020000,%%SystemRoot%%\System32\ElevocInstallDriver\ElevocDAPO.dll
+HKCR,CLSID\%ELEVOC_DAPO_CLSID%\InProcServer32,ThreadingModel,0,Both
+
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_DAPO_CLSID%,FriendlyName,0,"Elevoc Audio DAPO MFX"
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_DAPO_CLSID%,Copyright,0,"Copyright (c) Elevoc Technology Co.,Ltd."
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_DAPO_CLSID%,MajorVersion,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_DAPO_CLSID%,MinorVersion,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_DAPO_CLSID%,Flags,0x00010001,0x0000000e
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_DAPO_CLSID%,MinInputConnections,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_DAPO_CLSID%,MaxInputConnections,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_DAPO_CLSID%,MinOutputConnections,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_DAPO_CLSID%,MaxOutputConnections,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_DAPO_CLSID%,MaxInstances,0x00010001,0xffffffff
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_DAPO_CLSID%,NumAPOInterfaces,0x00010001,0x00000001
+HKCR,AudioEngine\AudioProcessingObjects\%ELEVOC_DAPO_CLSID%,APOInterface0,0,"{FD7F2B29-24D0-4B5C-B177-592C39F9CA10}"
+
+
+[Strings]
+Elevoc            = "Elevoc Technology Co.,Ltd"
+Apo.ComponentDesc = "Elevoc Audio Effects Component"
+DiskId            = "Elevoc APO Installation Disk"
+
+ServiceDisplayName  ="Elevoc Control Service"
+ServiceDescription     ="Elevoc Control Service is used by Elevoc Vocplus system to control Elevoc Audio effects in the system."
+
+ELEVOC_UAPO_CLSID= "{0099058B-5D54-4EDF-944D-E8187363997A}"
+ELEVOC_KWS_CLSID= "{AA53A6AB-0AE9-459C-B182-D390585B0486}"
+ELEVOC_SPEECH_CLSID="{FF5C03A3-E727-4A81-AA24-A65894D48176}"
+ELEVOC_DAPO_CLSID= "{001897D5-ADD1-4C31-90FD-34B06B8E7EE4}"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000

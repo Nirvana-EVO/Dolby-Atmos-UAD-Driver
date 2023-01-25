@@ -1,0 +1,84 @@
+;
+; TAS2563.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider=%ManufacturerName%
+CatalogFile=TAS2563.cat
+DriverVer = 03/21/2022,1.1.7.0
+PnpLockdown=1
+
+[DestinationDirs]
+DefaultDestDir = 12
+TAS2563_Device_CoInstaller_CopyFiles = 11
+
+; ================= Class section =====================
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+TAS2563.sys  = 1,,
+TAS2563Firmware.bin = 1,,
+;
+
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTamd64
+
+[Standard.NTamd64]
+%TAS2563.DeviceDesc%=TAS2563_Device, ACPI\INT8866
+
+
+[TAS2563_Device.NT]
+CopyFiles=Drivers_Dir
+
+[Drivers_Dir]
+TAS2563.sys
+TAS2563Firmware.bin
+
+;-------------- Service installation
+[TAS2563_Device.NT.Services]
+AddService = TAS2563,%SPSVCINST_ASSOCSERVICE%, TAS2563_Service_Inst
+
+; -------------- TAS2563 driver install sections
+[TAS2563_Service_Inst]
+DisplayName    = %TAS2563.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\TAS2563.sys
+
+[TAS2563_Device.NT.CoInstallers]
+AddReg=TAS2563_Device_CoInstaller_AddReg
+CopyFiles=TAS2563_Device_CoInstaller_CopyFiles
+
+[TAS2563_Device_CoInstaller_AddReg]
+;
+
+;HKR,"WDF","WdfDirectedPowerTransitionEnable",0x00010001,1
+
+[TAS2563_Device_CoInstaller_CopyFiles]
+;
+
+
+[TAS2563_Device.NT.Wdf]
+KmdfService =  TAS2563, TAS2563_wdfsect
+
+[TAS2563_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+ManufacturerName="Texas Instruments" 
+DiskName = "TAS2563 Installation Disk"
+TAS2563.DeviceDesc = "TAS2563 Device"
+TAS2563.SVCDESC = "TAS2563 Service"
+

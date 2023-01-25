@@ -1,0 +1,93 @@
+{
+    "app_monitor": [
+        {
+            "app_name": "teams.exe",
+            "has_ring": true,
+            "type": "voice"
+        },
+        {
+            "app_name": "qq.exe",
+            "has_ring": true,
+            "type": "voice"
+        },
+        {
+            "app_name": "wechat.exe",
+            "has_ring": true,
+            "type": "voice"
+        },
+        {
+            "app_name": "skype.exe",
+            "has_ring": true,
+            "type": "voice"
+        },
+        {
+            "app_name": "skypehost.exe",
+            "has_ring": true,
+            "type": "voice"
+        },
+        {
+            "app_name": "lync.exe",
+            "has_ring": true,
+            "type": "voice"
+        },
+        {
+            "app_name": "viber.exe",
+            "has_ring": true,
+            "type": "voice"
+        },
+        {
+            "app_name": "skype4life.exe",
+            "has_ring": true,
+            "type": "voice"
+        },
+        {
+            "app_name": "skypeapp.exe",
+            "has_ring": true,
+            "type": "voice"
+        },
+        {
+            "app_name": "bluejeans.exe",
+            "has_ring": true,
+            "type": "voice"
+        },
+        {
+            "app_name": "lwaplugin.exe",
+            "has_ring": true,
+            "type": "voice"
+        },
+        {
+            "app_name": "dingtalk.exe",
+            "has_ring": true,
+            "type": "voice"
+        },
+        {
+            "app_name": "zoom.exe",
+            "has_ring": false,
+            "type": "voice"
+        },
+        {
+            "app_name": "wemeetapp.exe",
+            "has_ring": false,
+            "type": "voice"
+        },
+        {
+            "app_name": "yy.exe",
+            "has_ring": false,
+            "type": "voice"
+        }
+    ],
+    "device": "GNA",
+    "downlink_default_mode": "disable",
+    "fake_gain": true,
+    "is_voiceid_setted": false,
+    "supported_alg": [
+        "dual"
+    ],
+    "supported_functions": [
+        "downlink",
+        "uplink",
+        "speaker_extraction",
+        "special"
+    ],
+    "uplink_default_mode": "shared"
+}

@@ -1,0 +1,44 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = SoftwareComponent
+ClassGuid   = {5c4c3332-344d-483c-8739-259e934c9cc8}
+Provider    = %Elevoc%
+CatalogFile = ElevocHSA.cat
+DriverVer   = 08/22/2022, 1.0.1.32
+
+[SourceDisksNames]
+222 = %DiskId1%
+
+[SourceDisksFiles]
+
+[DestinationDirs]
+DefaultDestDir = 13  ; copy to driverstore
+
+[Manufacturer]
+%Elevoc% = HsaComponents,NTamd64
+
+[HsaComponents.NTamd64]
+%Hsa.ComponentDesc% = HsaComponent_Install,SWC\VEN_ELEVOC&HID_0001
+
+[HsaComponent_Install]
+Include   = wdmaudio.inf
+
+[HsaComponent_Install.Services]
+AddService = ,2    ; no function driver
+
+[HsaComponent_Install.Software]
+AddSoftware=ElevocAudioControl,,Elevoc_Audio_Control_Install
+
+[Elevoc_Audio_Control_Install]
+SoftwareType=2
+SoftwareID=pfn://ElevocTechnologyCo.Ltd.SmartMicrophoneSettings_ttaqwwhyt5s6t
+SoftwareVersion = 1.1.30.0
+
+[Strings]
+Elevoc           = "Elevoc Technology Co.,Ltd"
+Hsa.ComponentDesc = "Elevoc Hardware Support Application"
+DiskId1           = "Elevoc HSA Installation Disk"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000

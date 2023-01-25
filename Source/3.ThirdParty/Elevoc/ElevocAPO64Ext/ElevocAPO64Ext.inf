@@ -1,0 +1,1375 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider    = %OrganizationName%
+ExtensionId = {F8AD342D-16E2-42B7-A8E3-EDED26AAD9E9}
+DriverVer   = 01/26/2022, 1.0.2.86
+CatalogFile = ElevocAPOExt.cat
+
+[SourceDisksNames]
+222 = %DiskId%
+
+[SourceDisksFiles]
+ELE_CG_17AA39FE=222
+ELE_CG_17AA3971=222
+ELE_CG_17AA39F8=222
+ELE_CG_17AA39F7=222
+ELE_CG_17AA3878=222
+ELE_CG_17AA3877=222
+ELE_CG_17AA39F5=222
+ELE_CG_17AA39F4=222
+ELE_CG_17AA3856=222
+ELE_CG_17AA3875=222
+ELE_CG_17AA3968=222
+ELE_CG_17AA39EF=222
+ELE_CG_17AA3874=222
+ELE_CG_17AA386F=222
+ELE_CG_17AA50AB=222
+ELE_CG_17AA39ED=222
+ELE_CG_17AA50B3=222
+ELE_CG_17AA50B1=222
+ELE_CG_17AA39EB=222
+ELE_CG_17AA39EC=222
+ELE_CG_17AA386E=222
+ELE_CG_17AA39D4=222
+ELE_CG_17AA3988=222
+ELE_CG_17AA397C=222
+ELE_CG_17AA397A=222
+ELE_CG_17AA3978=222
+ELE_CG_17AA39D9=222
+ELE_CG_17AA39D8=222
+ELE_CG_17AA39DE=222
+ELE_CG_17AA39DD=222
+ELE_CG_17AA39DC=222
+ELE_CG_17AA39DB=222
+ELE_CG_17AA39DA=222
+ELE_CG_17AA3984=222
+ELE_CG_17AA3983=222
+ELE_CG_17AA3982=222
+ELE_CG_17AA3981=222
+ELE_CG_17AA3980=222
+ELE_CG_17AA397F=222
+ELE_CG_17AA39E8=222
+ELE_CG_17AA39E6=222
+ELE_CG_17AA39E5=222
+ELE_CG_17AA3962=222
+ELE_CG_17AA3961=222
+ELE_CG_17AA395E=222
+ELE_CG_17AA386B=222
+ELE_CG_17AA3985=222
+ELE_CG_17AA50B2=222
+ELE_CG_17AA50A0=222
+ELE_CG_17AA3863=222
+ELE_CG_17AA3866=222
+ELE_CG_17AA3864=222
+RTMICAR_17AA39F5.DAT=222
+RTMICAR_17AA395E.DAT=222
+RTMICAR_17AA3961.DAT=222
+RTMICAR_17AA3962.DAT=222
+RTMICAR_17AA39E5.DAT=222
+RTMICAR_17AA39E6.DAT=222
+RTMICAR_17AA39E8.DAT=222
+RTMICAR_17AA397F.DAT=222
+RTMICAR_17AA3980.DAT=222
+RTMICAR_17AA3981.DAT=222
+RTMICAR_17AA3982.DAT=222
+RTMICAR_17AA3983.DAT=222
+RTMICAR_17AA3984.DAT=222
+RTMICAR_17AA39DA.DAT=222
+RTMICAR_17AA39DB.DAT=222
+RTMICAR_17AA39DC.DAT=222
+RTMICAR_17AA39DD.DAT=222
+RTMICAR_17AA39DE.DAT=222
+RTMICAR_17AA39D8.DAT=222
+RTMICAR_17AA39D9.DAT=222
+RTMICAR_17AA3978.DAT=222
+RTMICAR_17AA397A.DAT=222
+RTMICAR_17AA397C.DAT=222
+RTMICAR_17AA3988.DAT=222
+RTMICAR_17AA39D4.DAT=222
+RTMICAR_17AA39EC.DAT=222
+RTMICAR_17AA39EB.DAT=222
+RTMICAR_17AA50B1.DAT=222
+RTMICAR_17AA50B3.DAT=222
+RTMICAR_17AA50AB.DAT=222
+RTMICAR_17AA3877.DAT=222
+RTMICAR_17AA3878.DAT=222
+RTMICAR_17AA39F7.DAT=222
+RTMICAR_17AA39F8.DAT=222
+RTMICAR_17AA3971.DAT=222
+ELE_DMIC_50.dat=222
+ELE_DMIC_56.dat=222
+ELE_DMIC_75.dat=222
+ELE_DMIC_84.dat=222
+ELE_DMIC_90.dat=222
+ELE_DMIC_96.dat=222
+ELE_DMIC_103.dat=222
+ELE_DMIC_120.dat=222
+ELE_SE_DMIC_84.dat=222
+ELE_DMIC_M_84.raw=222
+ELE_DMIC_M_96.raw=222
+ELE_DMIC_M_90.raw=222
+ELE_DMIC_M_50.raw=222
+ELE_DMIC_M_75.raw=222
+ELE_DMIC_M_56.raw=222
+ELE_DMIC_M_103.raw=222
+ELE_DMIC_M_120.raw=222
+ELE_DMIC_M_C_50.raw=222
+ELE_DMIC_M_C_56.raw=222
+ELE_DMIC_M_C_75.raw=222
+ELE_DMIC_M_C_84.raw=222
+ELE_DMIC_M_C_93.raw=222
+ELE_DMIC_M_C_96.raw=222
+ELE_SMIC_M.raw=222
+ELE_SMIC_M_C.raw=222
+
+[DestinationDirs]
+RTMICAR_17AA3971.CopyList = 12
+RTMICAR_17AA39F8.CopyList = 12
+RTMICAR_17AA39F7.CopyList = 12
+RTMICAR_17AA3878.CopyList = 12
+RTMICAR_17AA3877.CopyList = 12
+RTMICAR_17AA50AB.CopyList = 12
+RTMICAR_17AA50B3.CopyList = 12
+RTMICAR_17AA50B1.CopyList = 12
+RTMICAR_17AA39EB.CopyList = 12
+RTMICAR_17AA39EC.CopyList = 12
+RTMICAR_17AA39D4.CopyList = 12
+RTMICAR_17AA3988.CopyList = 12
+RTMICAR_17AA397C.CopyList = 12
+RTMICAR_17AA397A.CopyList = 12
+RTMICAR_17AA3978.CopyList = 12
+RTMICAR_17AA39D9.CopyList = 12
+RTMICAR_17AA39D8.CopyList = 12
+RTMICAR_17AA39DE.CopyList = 12
+RTMICAR_17AA39DD.CopyList = 12
+RTMICAR_17AA39DC.CopyList = 12
+RTMICAR_17AA39DB.CopyList = 12
+RTMICAR_17AA39DA.CopyList = 12
+RTMICAR_17AA3984.CopyList = 12
+RTMICAR_17AA3983.CopyList = 12
+RTMICAR_17AA3982.CopyList = 12
+RTMICAR_17AA3981.CopyList = 12
+RTMICAR_17AA3980.CopyList = 12
+RTMICAR_17AA397F.CopyList = 12
+RTMICAR_17AA39E8.CopyList = 12
+RTMICAR_17AA39E6.CopyList = 12
+RTMICAR_17AA39E5.CopyList = 12
+RTMICAR_17AA3962.CopyList = 12
+RTMICAR_17AA3961.CopyList = 12
+RTMICAR_17AA395E.CopyList = 12
+RTMICAR_17AA39F5.CopyList = 12
+ELEDAT_17AA3864.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3866.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA50A0.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3863.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA50B2.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3985.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA386B.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA395E.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3961.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3962.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39E5.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39E6.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39E8.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA397F.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3980.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3981.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3982.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3983.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3984.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39DA.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39DB.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39DC.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39DD.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39DE.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39D8.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39D9.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3978.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA397A.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA397C.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3988.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39D4.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA386E.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39EC.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39EB.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA50B1.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA50B3.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39ED.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA50AB.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA386F.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3874.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39EF.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3968.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3875.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3856.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39F4.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39F5.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3877.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3878.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39F7.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39F8.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA3971.CopyList = 10,system32\ElevocConfig
+ELEDAT_17AA39FE.CopyList = 10,system32\ElevocConfig
+
+[ELEDAT_17AA39FE.CopyList]
+ELE_CG_17AA39FE
+ELE_DMIC_103.dat
+ELE_DMIC_M_103.raw
+ELE_SMIC_M.raw
+ELE_SE_DMIC_84.dat
+
+[ELEDAT_17AA3971.CopyList]
+ELE_CG_17AA3971
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA39F8.CopyList]
+ELE_CG_17AA39F8
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA39F7.CopyList]
+ELE_CG_17AA39F7
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA3878.CopyList]
+ELE_CG_17AA3878
+ELE_DMIC_M_C_56.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA3877.CopyList]
+ELE_CG_17AA3877
+ELE_DMIC_M_C_56.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA39F5.CopyList]
+ELE_CG_17AA39F5
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA39F4.CopyList]
+ELE_CG_17AA39F4
+ELE_DMIC_50.dat
+ELE_DMIC_M_50.raw
+ELE_SMIC_M.raw
+ELE_SE_DMIC_84.dat
+
+[ELEDAT_17AA3856.CopyList]
+ELE_CG_17AA3856
+ELE_DMIC_M_C_93.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA3875.CopyList]
+ELE_CG_17AA3875
+ELE_DMIC_50.dat
+ELE_DMIC_M_50.raw
+ELE_SMIC_M.raw
+ELE_SE_DMIC_84.dat
+
+[ELEDAT_17AA3968.CopyList]
+ELE_CG_17AA3968
+ELE_DMIC_50.dat
+ELE_DMIC_M_50.raw
+ELE_SMIC_M.raw
+ELE_SE_DMIC_84.dat
+
+[ELEDAT_17AA39EF.CopyList]
+ELE_CG_17AA39EF
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA3874.CopyList]
+ELE_CG_17AA3874
+ELE_DMIC_56.dat
+ELE_DMIC_M_56.raw
+ELE_SMIC_M.raw
+ELE_SE_DMIC_84.dat
+
+[ELEDAT_17AA386F.CopyList]
+ELE_CG_17AA386F
+ELE_DMIC_56.dat
+ELE_DMIC_M_56.raw
+ELE_SMIC_M.raw
+ELE_SE_DMIC_84.dat
+
+[ELEDAT_17AA50AB.CopyList]
+ELE_CG_17AA50AB
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA39ED.CopyList]
+ELE_CG_17AA39ED
+ELE_DMIC_90.dat
+ELE_DMIC_M_90.raw
+ELE_SMIC_M.raw
+ELE_SE_DMIC_84.dat
+
+[ELEDAT_17AA50B3.CopyList]
+ELE_CG_17AA50B3
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA50B1.CopyList]
+ELE_CG_17AA50B1
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA39EB.CopyList]
+ELE_CG_17AA39EB
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA39EC.CopyList]
+ELE_CG_17AA39EC
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA386E.CopyList]
+ELE_CG_17AA386E
+ELE_DMIC_56.dat
+ELE_DMIC_M_56.raw
+ELE_SMIC_M.raw
+ELE_SE_DMIC_84.dat
+
+[ELEDAT_17AA39D4.CopyList]
+ELE_CG_17AA39D4
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA3988.CopyList]
+ELE_CG_17AA3988
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA397C.CopyList]
+ELE_CG_17AA397C
+ELE_DMIC_50.dat
+ELE_DMIC_M_50.raw
+ELE_SMIC_M.raw
+ELE_SE_DMIC_84.dat
+
+[ELEDAT_17AA397A.CopyList]
+ELE_CG_17AA397A
+ELE_DMIC_50.dat
+ELE_DMIC_M_50.raw
+ELE_SMIC_M.raw
+ELE_SE_DMIC_84.dat
+
+[ELEDAT_17AA3978.CopyList]
+ELE_CG_17AA3978
+ELE_DMIC_50.dat
+ELE_DMIC_M_50.raw
+ELE_SMIC_M.raw
+ELE_SE_DMIC_84.dat
+
+[ELEDAT_17AA39D9.CopyList]
+ELE_CG_17AA39D9
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA39D8.CopyList]
+ELE_CG_17AA39D8
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA39DE.CopyList]
+ELE_CG_17AA39DE
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA39DD.CopyList]
+ELE_CG_17AA39DD
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA39DC.CopyList]
+ELE_CG_17AA39DC
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA39DB.CopyList]
+ELE_CG_17AA39DB
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA39DA.CopyList]
+ELE_CG_17AA39DA
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA3984.CopyList]
+ELE_CG_17AA3984
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA3983.CopyList]
+ELE_CG_17AA3983
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA3982.CopyList]
+ELE_CG_17AA3982
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA3981.CopyList]
+ELE_CG_17AA3981
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA3980.CopyList]
+ELE_CG_17AA3980
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA397F.CopyList]
+ELE_CG_17AA397F
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA39E8.CopyList]
+ELE_CG_17AA39E8
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA39E6.CopyList]
+ELE_CG_17AA39E6
+ELE_DMIC_M_C_75.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA39E5.CopyList]
+ELE_CG_17AA39E5
+ELE_DMIC_M_C_56.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA3962.CopyList]
+ELE_CG_17AA3962
+ELE_DMIC_M_C_75.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA3961.CopyList]
+ELE_CG_17AA3961
+ELE_DMIC_M_C_56.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA395E.CopyList]
+ELE_CG_17AA395E
+ELE_DMIC_M_C_56.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA386B.CopyList]
+ELE_CG_17AA386B
+ELE_DMIC_90.dat
+ELE_DMIC_M_90.raw
+ELE_SMIC_M.raw
+ELE_SE_DMIC_84.dat
+
+[ELEDAT_17AA3985.CopyList]
+ELE_CG_17AA3985
+ELE_DMIC_103.dat
+ELE_DMIC_M_103.raw
+ELE_SMIC_M.raw
+ELE_SE_DMIC_84.dat
+
+[ELEDAT_17AA50B2.CopyList]
+ELE_CG_17AA50B2
+ELE_DMIC_M_C_50.raw
+ELE_SMIC_M_C.raw
+
+[ELEDAT_17AA50A0.CopyList]
+ELE_CG_17AA50A0
+ELE_DMIC_50.dat
+ELE_DMIC_M_50.raw
+ELE_SMIC_M.raw
+ELE_SE_DMIC_84.dat
+
+[ELEDAT_17AA3863.CopyList]
+ELE_CG_17AA3863
+ELE_DMIC_50.dat
+ELE_DMIC_M_50.raw
+ELE_SMIC_M.raw
+ELE_SE_DMIC_84.dat
+
+[ELEDAT_17AA3866.CopyList]
+ELE_CG_17AA3866
+ELE_DMIC_120.dat
+ELE_DMIC_M_120.raw
+ELE_SMIC_M.raw
+ELE_SE_DMIC_84.dat
+
+[ELEDAT_17AA3864.CopyList]
+ELE_CG_17AA3864
+ELE_DMIC_56.dat
+ELE_DMIC_M_56.raw
+ELE_SMIC_M.raw
+ELE_SE_DMIC_84.dat
+
+[RTMICAR_17AA39F5.CopyList]
+RTMICAR_17AA39F5.DAT
+
+[RTMICAR_17AA395E.CopyList]
+RTMICAR_17AA395E.DAT
+
+[RTMICAR_17AA3961.CopyList]
+RTMICAR_17AA3961.DAT
+
+[RTMICAR_17AA3962.CopyList]
+RTMICAR_17AA3962.DAT
+
+[RTMICAR_17AA39E5.CopyList]
+RTMICAR_17AA39E5.DAT
+
+[RTMICAR_17AA39E6.CopyList]
+RTMICAR_17AA39E6.DAT
+
+[RTMICAR_17AA39E8.CopyList]
+RTMICAR_17AA39E8.DAT
+
+[RTMICAR_17AA397F.CopyList]
+RTMICAR_17AA397F.DAT
+
+[RTMICAR_17AA3980.CopyList]
+RTMICAR_17AA3980.DAT
+
+[RTMICAR_17AA3981.CopyList]
+RTMICAR_17AA3981.DAT
+
+[RTMICAR_17AA3982.CopyList]
+RTMICAR_17AA3982.DAT
+
+[RTMICAR_17AA3983.CopyList]
+RTMICAR_17AA3983.DAT
+
+[RTMICAR_17AA3984.CopyList]
+RTMICAR_17AA3984.DAT
+
+[RTMICAR_17AA39DA.CopyList]
+RTMICAR_17AA39DA.DAT
+
+[RTMICAR_17AA39DB.CopyList]
+RTMICAR_17AA39DB.DAT
+
+[RTMICAR_17AA39DC.CopyList]
+RTMICAR_17AA39DC.DAT
+
+[RTMICAR_17AA39DD.CopyList]
+RTMICAR_17AA39DD.DAT
+
+[RTMICAR_17AA39DE.CopyList]
+RTMICAR_17AA39DE.DAT
+
+[RTMICAR_17AA39D8.CopyList]
+RTMICAR_17AA39D8.DAT
+
+[RTMICAR_17AA39D9.CopyList]
+RTMICAR_17AA39D9.DAT
+
+[RTMICAR_17AA3978.CopyList]
+RTMICAR_17AA3978.DAT
+
+[RTMICAR_17AA397A.CopyList]
+RTMICAR_17AA397A.DAT
+
+[RTMICAR_17AA397C.CopyList]
+RTMICAR_17AA397C.DAT
+
+[RTMICAR_17AA3988.CopyList]
+RTMICAR_17AA3988.DAT
+
+[RTMICAR_17AA39D4.CopyList]
+RTMICAR_17AA39D4.DAT
+
+[RTMICAR_17AA39EC.CopyList]
+RTMICAR_17AA39EC.DAT
+
+[RTMICAR_17AA39EB.CopyList]
+RTMICAR_17AA39EB.DAT
+
+[RTMICAR_17AA50B1.CopyList]
+RTMICAR_17AA50B1.DAT
+
+[RTMICAR_17AA50B3.CopyList]
+RTMICAR_17AA50B3.DAT
+
+[RTMICAR_17AA50AB.CopyList]
+RTMICAR_17AA50AB.DAT
+
+[RTMICAR_17AA3877.CopyList]
+RTMICAR_17AA3877.DAT
+
+[RTMICAR_17AA3878.CopyList]
+RTMICAR_17AA3878.DAT
+
+[RTMICAR_17AA39F7.CopyList]
+RTMICAR_17AA39F7.DAT
+
+[RTMICAR_17AA39F8.CopyList]
+RTMICAR_17AA39F8.DAT
+
+[RTMICAR_17AA3971.CopyList]
+RTMICAR_17AA3971.DAT
+
+[Manufacturer]
+%MfgName% = DeviceExtensions,NTamd64
+
+[DeviceExtensions.NTamd64]
+;13S
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3864,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3864
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3864,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3864
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3864,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3867
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3864,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3867
+;13X
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3866,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3866
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3866,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3866
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3866,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3865
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3866,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3865
+;YOGA C970 ADL
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3863,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3863
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3863,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3863
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3863,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3801
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3863,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3801
+;S770-14 Pro IAH
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3863,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3986
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3863,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3986
+;S970 ADL
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA386B,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA386B
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA386B,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA386B
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA386B,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA386D
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA386B,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA386D
+;ThinkBook 14
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3863,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3960
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3863,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3960
+;ThinkBook 16
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3863,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA396E
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3863,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA396E
+;C770 14
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3863,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA386A
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3863,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA386A
+;C770 16
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3863,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3869
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3863,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3869
+;S770 14
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3985,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3985
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3985,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3985
+;S770 13
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39ED,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39ED
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39ED,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39ED
+;E14
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA50A0,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA50A0
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA50A0,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA50A0
+;E15
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA50A0,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA50A1
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA50A0,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA50A1
+;Thinkpad 14 pro
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA50A0,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_17AA509E
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA50A0,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_17AA509E
+;Thinkpad 14 pro AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA50B2,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_17AA50B2
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA50B2,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_17AA50B2
+;ThinkBook 14 AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA50B2,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3969
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA50B2,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3969
+;ThinkBook 16 AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA50B2,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA396D
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA50B2,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA396D
+;13s AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA395E,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA395E
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA395E,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA395E
+;Y570
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3961,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3961
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3961,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3961
+;Y570P
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3962,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3962
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3962,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3962
+;Y570-15 AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39E5,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39E5
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39E5,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39E5
+;Y570-16 AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39E6,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39E6
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39E6,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39E6
+;Y770-16 AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39E8,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39E8
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39E8,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39E8
+;S370 14 IAL
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA397F,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA397F
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA397F,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA397F
+;S370 15 IAL
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3980,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3980
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3980,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3980
+;S370 17 IAL
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3981,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3981
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3981,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3981
+;V14/V15/V17 IAL
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3982,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3982
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3982,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3982
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3983,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3983
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3983,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3983
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3984,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3984
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3984,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3984
+;S370 14/15/17 AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39DA,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DA
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39DA,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DA
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39DB,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DB
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39DB,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DB
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39DC,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DC
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39DC,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DC
+;V14/15 AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39DD,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39DD,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39DE,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DE
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39DE,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DE
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39D8,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39D8
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39D8,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39D8
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39D9,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39D9
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39D9,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39D9
+;Yoga v350 14
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3978,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3978
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3978,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3978
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA397A,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA397A
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA397A,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA397A
+;v350 15
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA397C,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA397C
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA397C,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA397C
+;V350 14/15 AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3988,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3988
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3988,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3988
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39D4,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39D4
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39D4,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39D4
+;Draco-16
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA386E,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA386E
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA386E,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA386E
+;S170 14 IAL
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39EC,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39EC
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39EC,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39EC
+;S170 15 IAL
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39EB,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39EB
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39EB,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39EB
+;E14 AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA50B1,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA50B1
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA50B1,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA50B1
+;E15 AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA50B3,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA50B3
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA50B3,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA50B3
+;Y770 ADL
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA386F,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA386F
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA386F,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA386F
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3874,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3874
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3874,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3874
+;ThinkBook-14P AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39EF,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39EF
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39EF,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39EF
+;ThinkBook-16P AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39EF,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3871
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39EF,HDAUDIO\FUNC_01&VEN_10EC
+;IdeaPad 5/XiaoXin Pro 16IAH7
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3968,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3968
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3968,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3968
+;Thinkbook Plus 17
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3875,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3875
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3875,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3875
+;S760 14
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3856,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3856
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3856,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3856
+;ThinkBook 16p NX IAP
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39F4,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F4
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39F4,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F4
+;ThinkBook 16p NX AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39F5,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F5
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39F5,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F5
+;Y770S(Draco-16)AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3877,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3877
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3877,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3877
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3878,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3878
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3878,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3878
+;S170 14 IGL
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39F7,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F7
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39F7,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F7
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39F8,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F8
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39F8,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F8
+;13W AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3971,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3971
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA3971,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3971
+;Yoga 16s IAH7(S770 ADL-P)
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39FE,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39FE
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA39FE,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39FE
+
+[DeviceExtension_Install_17AA39FE]
+CopyFiles = ELEDAT_17AA39FE.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39FE.HW]
+
+[DeviceExtension_Install_17AA3971]
+CopyFiles = ELEDAT_17AA3971.CopyList, RTMICAR_17AA3971.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3971.HW]
+
+[DeviceExtension_Install_17AA39F8]
+CopyFiles = ELEDAT_17AA39F8.CopyList, RTMICAR_17AA39F8.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39F8.HW]
+
+[DeviceExtension_Install_17AA39F7]
+CopyFiles = ELEDAT_17AA39F7.CopyList, RTMICAR_17AA39F7.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39F7.HW]
+
+[DeviceExtension_Install_17AA3878]
+CopyFiles = ELEDAT_17AA3878.CopyList, RTMICAR_17AA3878.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3878.HW]
+
+[DeviceExtension_Install_17AA3877]
+CopyFiles = ELEDAT_17AA3877.CopyList, RTMICAR_17AA3877.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3877.HW]
+
+[DeviceExtension_Install_17AA39F5]
+CopyFiles = ELEDAT_17AA39F5.CopyList, RTMICAR_17AA39F5.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39F5.HW]
+
+[DeviceExtension_Install_17AA39F4]
+CopyFiles = ELEDAT_17AA39F4.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39F4.HW]
+
+[DeviceExtension_Install_17AA3856]
+CopyFiles = ELEDAT_17AA3856.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3856.HW]
+
+[DeviceExtension_Install_17AA3875]
+CopyFiles = ELEDAT_17AA3875.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3875.HW]
+
+[DeviceExtension_Install_17AA3968]
+CopyFiles = ELEDAT_17AA3968.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3968.HW]
+
+[DeviceExtension_Install_17AA39EF]
+CopyFiles = ELEDAT_17AA39EF.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39EF.HW]
+
+[DeviceExtension_Install_17AA3874]
+CopyFiles = ELEDAT_17AA3874.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3874.HW]
+
+[DeviceExtension_Install_17AA386F]
+CopyFiles = ELEDAT_17AA386F.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA386F.HW]
+
+[DeviceExtension_Install_17AA50AB]
+CopyFiles = ELEDAT_17AA50AB.CopyList, RTMICAR_17AA50AB.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA50AB.HW]
+
+[DeviceExtension_Install_17AA39ED]
+CopyFiles = ELEDAT_17AA39ED.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39ED.HW]
+
+[DeviceExtension_Install_17AA50B3]
+CopyFiles = ELEDAT_17AA50B3.CopyList, RTMICAR_17AA50B3.CopyList
+AddReg = PresetAddReg, PresetAddReg_MICBOOST
+
+[DeviceExtension_Install_17AA50B3.HW]
+
+[DeviceExtension_Install_17AA50B1]
+CopyFiles = ELEDAT_17AA50B1.CopyList, RTMICAR_17AA50B1.CopyList
+AddReg = PresetAddReg, PresetAddReg_MICBOOST
+
+[DeviceExtension_Install_17AA50B1.HW]
+
+[DeviceExtension_Install_17AA39EB]
+CopyFiles = ELEDAT_17AA39EB.CopyList, RTMICAR_17AA39EB.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39EB.HW]
+
+[DeviceExtension_Install_17AA39EC]
+CopyFiles = ELEDAT_17AA39EC.CopyList, RTMICAR_17AA39EC.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39EC.HW]
+
+[DeviceExtension_Install_17AA386E]
+CopyFiles = ELEDAT_17AA386E.CopyList
+AddReg = PresetAddReg, MicGainDef
+
+[DeviceExtension_Install_17AA386E.HW]
+
+[DeviceExtension_Install_17AA39D4]
+CopyFiles = ELEDAT_17AA39D4.CopyList, RTMICAR_17AA39D4.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39D4.HW]
+
+[DeviceExtension_Install_17AA3988]
+CopyFiles = ELEDAT_17AA3988.CopyList, RTMICAR_17AA3988.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3988.HW]
+
+[DeviceExtension_Install_17AA397C]
+CopyFiles = ELEDAT_17AA397C.CopyList, RTMICAR_17AA397C.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA397C.HW]
+
+[DeviceExtension_Install_17AA397A]
+CopyFiles = ELEDAT_17AA397A.CopyList, RTMICAR_17AA397A.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA397A.HW]
+
+[DeviceExtension_Install_17AA3978]
+CopyFiles = ELEDAT_17AA3978.CopyList, RTMICAR_17AA3978.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3978.HW]
+
+[DeviceExtension_Install_17AA39D9]
+CopyFiles = ELEDAT_17AA39D9.CopyList, RTMICAR_17AA39D9.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39D9.HW]
+
+[DeviceExtension_Install_17AA39D8]
+CopyFiles = ELEDAT_17AA39D8.CopyList, RTMICAR_17AA39D8.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39D8.HW]
+
+[DeviceExtension_Install_17AA39DE]
+CopyFiles = ELEDAT_17AA39DE.CopyList, RTMICAR_17AA39DE.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39DE.HW]
+
+[DeviceExtension_Install_17AA39DD]
+CopyFiles = ELEDAT_17AA39DD.CopyList, RTMICAR_17AA39DD.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39DD.HW]
+
+[DeviceExtension_Install_17AA39DC]
+CopyFiles = ELEDAT_17AA39DC.CopyList, RTMICAR_17AA39DC.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39DC.HW]
+
+[DeviceExtension_Install_17AA39DB]
+CopyFiles = ELEDAT_17AA39DB.CopyList, RTMICAR_17AA39DB.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39DB.HW]
+
+[DeviceExtension_Install_17AA39DA]
+CopyFiles = ELEDAT_17AA39DA.CopyList, RTMICAR_17AA39DA.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39DA.HW]
+
+[DeviceExtension_Install_17AA3984]
+CopyFiles = ELEDAT_17AA3984.CopyList, RTMICAR_17AA3984.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3984.HW]
+
+[DeviceExtension_Install_17AA3983]
+CopyFiles = ELEDAT_17AA3983.CopyList, RTMICAR_17AA3983.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3983.HW]
+
+[DeviceExtension_Install_17AA3982]
+CopyFiles = ELEDAT_17AA3982.CopyList, RTMICAR_17AA3982.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3982.HW]
+
+[DeviceExtension_Install_17AA3981]
+CopyFiles = ELEDAT_17AA3981.CopyList, RTMICAR_17AA3981.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3981.HW]
+
+[DeviceExtension_Install_17AA3980]
+CopyFiles = ELEDAT_17AA3980.CopyList, RTMICAR_17AA3980.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3980.HW]
+
+[DeviceExtension_Install_17AA397F]
+CopyFiles = ELEDAT_17AA397F.CopyList, RTMICAR_17AA397F.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA397F.HW]
+
+[DeviceExtension_Install_17AA39E8]
+CopyFiles = ELEDAT_17AA39E8.CopyList, RTMICAR_17AA39E8.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39E8.HW]
+
+[DeviceExtension_Install_17AA39E6]
+CopyFiles = ELEDAT_17AA39E6.CopyList, RTMICAR_17AA39E6.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39E6.HW]
+
+[DeviceExtension_Install_17AA39E5]
+CopyFiles = ELEDAT_17AA39E5.CopyList, RTMICAR_17AA39E5.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA39E5.HW]
+
+[DeviceExtension_Install_17AA3962]
+CopyFiles = ELEDAT_17AA3962.CopyList, RTMICAR_17AA3962.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3962.HW]
+
+[DeviceExtension_Install_17AA3961]
+CopyFiles = ELEDAT_17AA3961.CopyList, RTMICAR_17AA3961.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3961.HW]
+
+[DeviceExtension_Install_17AA395E]
+CopyFiles = ELEDAT_17AA395E.CopyList, RTMICAR_17AA395E.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA395E.HW]
+
+[DeviceExtension_Install_17AA386B]
+CopyFiles = ELEDAT_17AA386B.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA386B.HW]
+
+[DeviceExtension_Install_17AA3985]
+CopyFiles = ELEDAT_17AA3985.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3985.HW]
+
+[DeviceExtension_Install_17AA50B2]
+CopyFiles = ELEDAT_17AA50B2.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA50B2.HW]
+
+[DeviceExtension_Install_17AA50A0]
+CopyFiles = ELEDAT_17AA50A0.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA50A0.HW]
+
+[DeviceExtension_Install_17AA3863]
+CopyFiles = ELEDAT_17AA3863.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3863.HW]
+
+[DeviceExtension_Install_17AA3866]
+CopyFiles = ELEDAT_17AA3866.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3866.HW]
+
+[DeviceExtension_Install_17AA3864]
+CopyFiles = ELEDAT_17AA3864.CopyList
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA3864.HW]
+
+[PresetAddReg_MICBOOST]
+HKR,Settings,ExtHwMicGain,0x10001,0x00000001
+HKR,Settings,HideMicBoostBar,0x10001,0x1
+
+[MicGainDef]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
+
+[PresetAddReg]
+HKR,InterfaceSetting,RearMicInBlackTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,RearMicInGreyTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,RearMicInBlueTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,RearMicInGreenTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,RearMicInRedTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,RearMicInOrangeTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,RearMicInYellowTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,RearMicInPurpleTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,RearMicInPinkTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,RearMicGoldenTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,RearMicSilverTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,RearMicInWhiteTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,FrontMicInBlackTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,FrontMicInGreyTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,FrontMicInBlueTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,FrontMicInGreenTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,FrontMicInRedTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,FrontMicInOrangeTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,FrontMicInYellowTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,FrontMicInPurpleTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,FrontMicInPinkTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,FrontMicInGoldenTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,FrontMicInSilverTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,FrontMicInWhiteTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,BTBPInTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,RtMicInTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,RtFrontMicInTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,DigitalMICTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,RtMicArTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,RtMicInSSTTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,RtStereoMixTopo,0x10008,"APOPreset1"
+HKR,InterfaceSetting,RtLineInTopo,0x10008,"APOPreset1"
+
+[DeviceExtension_Install_17AA39FE.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3971.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39F8.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39F7.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3878.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3877.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39F5.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39F4.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3856.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3875.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3968.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39EF.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3874.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA386F.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA50AB.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39ED.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA50B3.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA50B1.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39EB.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39EC.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA386E.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39D4.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3988.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA397C.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA397A.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3978.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39D9.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39D8.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39DE.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39DD.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39DC.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39DB.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39DA.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3984.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3983.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3982.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3981.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3980.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA397F.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39E8.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39E6.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA39E5.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3962.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3961.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA395E.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA386B.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3985.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA50B2.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA50A0.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3863.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3866.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[DeviceExtension_Install_17AA3864.Components]
+AddComponent = ElevocAPO,,ElevocAPO_Install
+AddComponent = ElevocHSA,,ElevocHSA_Install
+
+[ElevocAPO_Install]
+ComponentIDs = SWC\VEN_ELEVOC&AID_0001
+Description = "Elevoc Audio Effects Component"
+
+[ElevocHSA_Install]
+ComponentIDs = SWC\VEN_ELEVOC&HID_0001
+Description = "Elevoc Hardware Support Application"
+
+[Strings]
+OrganizationName     = "Elevoc Technology Co.,Ltd"
+MfgName                  = "Elevoc"
+Device.ExtensionDesc = "Elevoc Device Extension"
+DiskId                         = "Elevoc APO Ext Installation Disk"
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000

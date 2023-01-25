@@ -1,0 +1,51 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = SoftwareComponent
+ClassGuid   = {5c4c3332-344d-483c-8739-259e934c9cc8}
+Provider    = %Realtek%
+DriverVer   = 12/20/2022,11.0.6000.289
+CatalogFile = RealtekHSA.cat
+PnpLockDown=1
+
+[SourceDisksNames]
+222 = %DiskId1%
+
+[SourceDisksFiles]
+
+[DestinationDirs]
+
+[SignatureAttributes]
+
+[SignatureAttributes.DRM]
+DRMLevel=1300
+
+[SignatureAttributes.PETrust]
+PETrust=true
+
+[Manufacturer]
+%Realtek% = HsaComponents,NTamd64
+
+[HsaComponents.NTamd64]
+%Hsa.ComponentDesc% = HsaComponent_Install,SWC\VEN_10EC&HID_0001
+
+[HsaComponent_Install]
+Include   = wdmaudio.inf
+
+[HsaComponent_Install.Services]
+AddService = ,2    ; no function driver
+
+[HsaComponent_Install.Software]
+AddSoftware=RealtekAudioControl,,Realtek_Audio_Control_Install
+
+[Realtek_Audio_Control_Install]
+SoftwareType=2
+SoftwareID=pfn://RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj
+
+[Strings]
+Realtek           = "Realtek"
+Hsa.ComponentDesc = "Realtek Hardware Support Application"
+DiskId1           = "Realtek HSA Installation Disk"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
